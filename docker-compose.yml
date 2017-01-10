@@ -1,7 +1,7 @@
 networks: {}
 version: '2'
 services:
-  nodejs:
+  alpine-node:
     restart: always
     build: .
     image: mhart/alpine-node
